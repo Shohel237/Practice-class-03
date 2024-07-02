@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:hsl(206.67deg 12% 14.71%) ;
+    height: 50px;
+    width: 100%;
+}
+#nav h2{
+    color: white;
+    padding-left: 160px;
+}
+#nav ul{
+    list-style: none;
+    padding-right: 160px;
+}
+#nav ul li{
+    display: inline-block;
+    padding: 7px;
+}
+#nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#hero{
+    height: 460px;
+    background:hsl(206.67deg 12% 14.71%);
+    padding: 20px 480px;
+    text-align: center;
+}
+#hero h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 70px;
+}
+#hero p{
+    padding: 15px 0px;
+    color: #b5b5b5;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#hero .get{
+    background: hsl(216.46deg 98.34% 52.75%);
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+#hero .learn{
+    background: hsl(206.67deg 12% 14.71%);
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #b5b5b5;
+    border-radius: 5px;
+    font-size:25px;
+    font-weight: 600;
+}
+#last_section{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 160px;
+
+}
+#last_section .icon{
+
+    flex-basis: 33.33%;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+#last_section .icon h3{
+    padding: 10px 0px;
+}
+#last_section .icon img{
+    height: 40px;
+    width: 40px;
+}
+#last_section .icon p{
+    padding-bottom: 10px;
+}
+#last_section .icon a{
+    text-decoration: none;
+}
